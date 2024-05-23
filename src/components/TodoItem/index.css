@@ -1,0 +1,19 @@
+/* Write your CSS here */
+.li {
+  list-style-type: none;
+  margin-left: 20px;
+  display: flex;
+  justify-content: space-between;
+  font-family: 'Roboto';
+}
+button {
+  width: 80px;
+  height: 33px;
+  border-radius: 10px;
+  background-color: transparent;
+  border: #ff0b37 solid;
+  color: #ff0b37;
+  font-family: 'Roboto';
+  font-weight: 450;
+  cursor: pointer;
+}
