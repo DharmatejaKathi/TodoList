@@ -83,6 +83,7 @@ class SimpleTodos extends Component {
               placeholder="Add Todo"
               onChange={this.onChangeAddText}
               value={addText}
+              className="add-input"
             />
             <button
               type="button"
@@ -99,6 +100,7 @@ class SimpleTodos extends Component {
               details={each}
               key={each.id}
               onDeleteTodo={this.onDeleteTodo}
+              editItem={this.editItem}
             />
           ))}
         </ul>
