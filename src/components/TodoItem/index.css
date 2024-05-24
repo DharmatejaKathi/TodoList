@@ -5,6 +5,7 @@
   display: flex;
   justify-content: space-between;
   font-family: 'Roboto';
+  margin-bottom: 10px;
 }
 button {
   width: 80px;
@@ -13,6 +14,36 @@ button {
   background-color: transparent;
   border: #ff0b37 solid;
   color: #ff0b37;
+  font-family: 'Roboto';
+  font-weight: 450;
+  cursor: pointer;
+}
+.edit {
+  width: 80px;
+  height: 33px;
+  border-radius: 10px;
+  background-color: #ff0b37;
+  border: #ff0b37 solid;
+  color: white;
+  font-family: 'Roboto';
+  font-weight: 450;
+  cursor: pointer;
+}
+.title {
+  width: 73%;
+}
+.edit-input {
+  width: 300px;
+  border-radius: 5px;
+  outline: none;
+}
+.save-button {
+  width: 80px;
+  height: 33px;
+  border-radius: 10px;
+  background-color: #ff0b37;
+  border: #ff0b37 solid;
+  color: white;
   font-family: 'Roboto';
   font-weight: 450;
   cursor: pointer;
