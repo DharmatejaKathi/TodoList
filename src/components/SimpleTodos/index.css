@@ -18,3 +18,32 @@
   font-family: 'Roboto';
   font-weight: bold;
 }
+.add-button {
+  width: 110px;
+  height: 36px;
+  border-radius: 10px;
+  background-color: #ff8542;
+  border: #ff0b37 solid;
+  color: white;
+  font-family: 'Roboto';
+  font-weight: 450;
+  cursor: pointer;
+  font-size: 16px;
+  margin-left: 10px;
+}
+.add-input {
+  width: 260px;
+  height: 37px;
+  border-radius: 10px;
+  border: 1.8px #ff0b37 solid;
+  outline: #ff8542;
+  padding-left: 10px;
+  color: gray;
+  font-family: 'Roboto';
+}
+
+.add-input::placeholder {
+  color: gray;
+  font-family: 'Roboto';
+  font-size: 14px;
+}
